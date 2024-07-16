@@ -1,7 +1,7 @@
 ## coding-club-nc
 For task and activity record, organization and collaboration. Club moderators only.
 
-##  List of ideas, * means need to find interesting things
+##  List of ideas, * : need to find more interesting things
 
 # Open Contest - Design for Hall of Fame design
 
@@ -20,3 +20,4 @@ For task and activity record, organization and collaboration. Club moderators on
 13 - Collisions
 14 - Cipher
 15 - Bootstrap
+16 - Fractals*
