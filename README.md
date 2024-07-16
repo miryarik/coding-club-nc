@@ -3,7 +3,7 @@ For task and activity record, organization and collaboration. Club moderators on
 
 ##  List of ideas, * : need to find more interesting things
 
-# Open Contest - Design for Hall of Fame design
+# Open Contest - Design for Hall of Fame page
 
 1 - Terminal task*  
 2 - GitHub grid animated  
