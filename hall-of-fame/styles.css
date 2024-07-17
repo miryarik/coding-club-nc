@@ -51,3 +51,36 @@ body {
     padding-right: 24px;
     border-right: none;
 }
+
+a {
+    text-decoration: none;
+}
+
+.prev-winner a {
+    align-items: center;
+    display: flex;
+    color: #f9f4da;
+    gap: 12px
+}
+
+h3 {
+    text-align: center;
+    color: #7d7e78;
+    font-family: "Jost", Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.prev-winner {
+    padding: 8px;
+    background-color: #1a1819;
+    border-radius: 8px;
+    margin: 12px auto;
+}
+
+.prev-winners {
+    display: table;
+    margin: 4px auto;
+    font-family: "Jost", Verdana, Tahoma, sans-serif;
+}
+
+img {max-width:100%;}
