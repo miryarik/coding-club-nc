@@ -20,4 +20,5 @@ For task and activity record, organization and collaboration. Club moderators on
 13 - Collisions  
 14 - Cipher  
 15 - Bootstrap  
-16 - Fractals*  
+16 - Fractals*
+17 - Game of Life
