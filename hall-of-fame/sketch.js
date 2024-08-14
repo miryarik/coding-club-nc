@@ -1,17 +1,22 @@
 let n, xs, ys, radii, velocities;
 let randomizeColors;
+let maxNodes;
 
 function setup() {
   const canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
   canvas.style("position", "fixed");
   canvas.style("z-index", "-1");
+  maxNodes = 0;
+  initializeProperties();
+}
 
-  n = windowWidth / 5;
+function initializeProperties() {
   xs = [];
   ys = [];
   radii = [];
   velocities = [];
+  n = (windowWidth + windowHeight) / 10;
   for (let i = 0; i < n; i++) {
     xs.push(random(20, windowWidth - 20));
     ys.push(random(20, windowHeight - 20));
@@ -54,4 +59,6 @@ function draw() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+  console.log("REsized");
+  initializeProperties();
 }
