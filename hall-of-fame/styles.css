@@ -2,17 +2,6 @@ body {
     background-color: #0e0f11;
 }
 
-.outer {
-    background-color: black;
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-
-}
 
 h1 {
     font-family: "Jost", Verdana, Tahoma, sans-serif;
@@ -40,6 +29,7 @@ h1 {
     justify-content: center;
     text-align: center;
 }
+
 
 .first {
     width: 25%;

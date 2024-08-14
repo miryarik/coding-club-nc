@@ -48,6 +48,8 @@ function draw() {
     fill(255);
     circle(xs[i], ys[i], radii[i]);
   }
+
+  background(0, 0, 0, 150);
 }
 
 function windowResized() {
