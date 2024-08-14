@@ -5,11 +5,12 @@ body {
 .outer {
     background-color: black;
     opacity: 0.9;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+
 
 }
 
