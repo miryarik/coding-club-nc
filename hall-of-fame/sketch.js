@@ -54,7 +54,7 @@ function draw() {
     circle(xs[i], ys[i], radii[i]);
   }
 
-  // background(0, 0, 0, 150);
+  background(0, 0, 0, 150);
 }
 
 function windowResized() {
