@@ -16,7 +16,7 @@ function initializeProperties() {
   ys = [];
   radii = [];
   velocities = [];
-  n = (windowWidth + windowHeight) / 10;
+  n = (windowWidth * windowHeight) / 7000;
   for (let i = 0; i < n; i++) {
     xs.push(random(20, windowWidth - 20));
     ys.push(random(20, windowHeight - 20));
